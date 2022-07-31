@@ -1,9 +1,14 @@
-import { PinScrollContainer } from './containers';
+import {
+  PinScrollContainer,
+  MarqueeContainer,
+  Card,
+  TextSplitTest,
+} from './containers';
 
 function App() {
   return (
     <div>
-      <PinScrollContainer />
+      <TextSplitTest />
     </div>
   );
 }
